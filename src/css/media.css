@@ -21,6 +21,11 @@
     .contact-location-row {
         padding: 0 !important;
     }
+
+    .accordion-body {
+        font-size: 14px;
+        text-align: justify !important;
+    }
 }
 
 /* Extra small devices (phones, 320px and 480px) */
@@ -41,6 +46,10 @@
 
     .pro-caption-body {
         font-size: 20px !important
+    }
+
+    #basic-nav-dropdown {
+        color: rgba(255, 255, 255, 0.55) !important;
     }
 
     .contact-form-row {
@@ -264,6 +273,10 @@
         margin-top: 0px !important;
     }
 
+    #basic-nav-dropdown {
+        color: rgba(255, 255, 255, 0.55) !important;
+    }
+
     .text-page {
         margin-top: 0px !important;
     }
@@ -291,13 +304,27 @@
     .page-container-overlay {
         padding: 100px 0 !important;
     }
+
+    .accordion-body {
+        font-size: 14px;
+        text-align: justify !important;
+    }
 }
 
 /* Large devices (laptops/desktops, 769px and 991px) */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
+    
+    .accordion-body {
+        font-size: 14px;
+        text-align: justify !important;
+    }
 
     .car-img {
         height: 450px !important;
+    }
+
+    #basic-nav-dropdown {
+        color: rgba(255, 255, 255, 0.55) !important;
     }
 
     .carousel-caption {
