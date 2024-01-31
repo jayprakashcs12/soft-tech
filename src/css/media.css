@@ -31,16 +31,16 @@
     }
 
     .carousel-caption {
-        top: 35% !important;
+        top: 25% !important
     }
 
     .pro-caption-head {
-        font-size: 30px !important;
+        font-size: 25px !important;
         font-weight: 700;
     }
 
     .pro-caption-body {
-        font-size: 25px !important
+        font-size: 20px !important
     }
 
     .contact-form-row {
@@ -441,6 +441,10 @@
 
     .about-img1, .why-img1 {
         height: 365px !important;
+    }
+
+    .pro-breadcrumb {
+        top: 180px !important;
     }
 }
 
