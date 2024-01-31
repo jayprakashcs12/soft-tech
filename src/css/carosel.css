@@ -1,0 +1,102 @@
+.carousel-container {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    top: 35%;
+    text-align: center;
+}
+
+.pro-caption-head {
+    font-size: 40px;
+    color: #212529;
+    margin: 0;
+}
+
+.pro-caption-body {
+    font-size: 30px;
+    color: #dc3545;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.page-container-overlay {
+    background-color: lightcoral;
+    padding: 150px 0;
+    background-size: cover;
+    margin: 0;
+}
+
+.breadcrumb-link {
+    border-radius: 0px;
+    background: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+.pro-breadcrumb {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    z-index: 3;
+}
+
+.breadcrumb-head {
+    color: #fff;
+}
+
+.breadcrumb-home-link:after {
+    font-family: "Bootstrap-icons";
+    content: "\f234";
+    margin-left: 10px;
+    color: #e5e9f7;
+}
+
+.back-to-home {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.active-page-div {
+    font-weight: 400;
+    font-size: 14px;
+    color: #e5e9f7;
+    line-height: 30px;
+    margin: -2px 0 0 10px;
+    display: inline-block;
+}
+
+.active-page-div,
+.breadcrumb-head {
+    cursor: context-menu;
+}
+
+.breadcrumb-home-link,
+.pro-breadcrumb,
+.breadcrumb-link {
+    display: flex;
+}
+
+.pro-breadcrumb,
+.breadcrumb-link {
+    text-align: center;
+    justify-content: center;
+}
+
+.car-img {
+    height: 600px;
+    width: 100%;
+    opacity: 0.7;
+}

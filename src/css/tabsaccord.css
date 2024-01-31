@@ -1,0 +1,49 @@
+.accordion-device, .tab-device {
+    margin: 20px 0;
+}
+
+.pro-tab, ul>li>button {
+    color: #bc375c !important;
+}
+
+.pro-tab, .pro-tab-content, .nav-tabs .nav-link {
+    border: 1px solid #bc375c;
+}
+
+.pro-item {
+    margin-top: 1px !important;
+}
+
+.pro-tab.active, .pro-tab:hover, .pro-accordion-head>button, .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    background: #bc375c !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #fff !important;
+}
+
+.pro-accordion-head>button {
+    box-shadow: none !important;
+}
+
+.pro-tab-content {
+    border-radius: 7px !important;
+    margin-left: 10px !important;
+    padding: 1% 2%;
+}
+
+.tab-content > .active {
+    padding-bottom: 13px !important;
+    text-align: justify;
+}
+
+.accordion-device, .tab-device {
+    margin: 0 !important;
+}
+
+.no-border {
+    border: 1px solid #eee !important;
+    margin: -1px !important;
+}

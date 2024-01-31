@@ -1,0 +1,46 @@
+.pro-page, .pro-page1 {
+    margin-top: 35px;
+}
+
+.text-div {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.web-container {
+    margin-top: 30px;
+}
+
+.about-img1, .why-img1 {
+    height: 307px;
+}
+
+.no-space {
+    padding: 0 !important;
+}
+
+.career-page {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pro-desc-head, .pro-list-item::marker {
+    font-weight: 700;
+}
+
+.pro-unorder-list {
+    list-style-type: number;
+    padding-left: 1rem;
+    font-size: 17px;
+}
+
+.pro-list-item {
+    padding: 5px 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.join-div {
+    margin: 2% 0 0 0;
+    text-align: center;
+}

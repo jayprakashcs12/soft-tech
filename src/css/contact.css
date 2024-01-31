@@ -1,0 +1,159 @@
+.pro-label {
+    font-size: 17px;
+    font-style: italic;
+    padding: 0 0 0 20px;
+}
+
+.pro-head {
+    text-align: center;
+}
+
+.contact-location-row {
+    padding: 27px 0;
+}
+
+.pro-container-div {
+    --bs-gutter-x: 0 !important;
+}
+
+.contact-div {
+    margin: 1% 0;
+}
+
+.imp-text-label {
+    color: #dc3545!important;
+}
+
+.contact-head{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#gmap_canvas, .mapouter {
+    border-radius: 25px;
+    height: 660px;
+    width: 100%;
+}
+
+#gmap_canvas1, .mapouter1 {
+    border-radius: 0;
+    height: 350px;
+    width: 100%;
+}
+
+.contact-form-row {
+    background-color: #7f5aff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 120px 80px -80px rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+    padding: 3% 5%;
+}
+
+.contact-form-div {
+    padding: 0 2%;
+}
+
+.get-details-div {
+    text-align: center;
+}
+
+.details-div {
+    text-align: center;
+}
+
+.pro-input {
+    border-radius: 50px;
+    font-size: 15px;
+    height: 20px;
+}
+
+.pro-input, .pro-text {
+    border: 1px solid #22222240 !important;
+    box-shadow: 0 20px 30px #22222212;
+}
+
+.pro-input {
+    padding: 20px;
+}
+
+.pro-text {
+    padding: 16px;
+}
+
+.pro-form {
+    margin-top: 10px;
+}
+
+.pro-input {
+    border-radius: 50px;
+    font-size: 15px;
+    height: 20px;
+}
+
+.pro-input, .pro-text {
+    border: 1px solid #22222240!important;
+    box-shadow: 0 20px 30px #22222212 !important;
+    padding: 20px;
+}
+
+.pro-input:focus, .pro-text:focus {
+    box-shadow: 0 7.5px 15px #2223!important;
+}
+
+.pro-btn {
+    margin-top: 20px;
+}
+
+.contact-page-card {
+    margin: 0 21.5px;
+    width: 30%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    border-radius: 100px 0;
+    overflow: hidden;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.location-card {
+    background-color: #ff7355;
+}
+
+.loc-card {
+    background-color: #ff7355;
+}
+
+.time-card {
+    background-color: #ff9c02;
+}
+
+.contact-card {
+    background-color: #2b76df;
+}
+
+.contact-heading {
+    color: #ffffff80 !important;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.contact-body {
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+    color: #fff;
+}
+
+.contact-pro-label, .contact-accordion-btn:not(.collapsed) {
+    color: #fff !important;
+}

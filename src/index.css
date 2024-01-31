@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url("./css/home.css");
+@import url("./css/media.css");
+@import url("./css/about.css");
+@import url("./css/carosel.css");
+@import url("./css/contact.css");
+@import url("./css/footer.css");
+@import url("./css/header.css");
+@import url("./css/tabsaccord.css");

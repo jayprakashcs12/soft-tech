@@ -1,0 +1,461 @@
+/* Responsive CSS for Software  */
+
+@media screen and (min-width:320px) and (max-width: 1399px) {
+    .contact-page-card {
+        margin: 2% 0 !important;
+        width: 100% !important;
+    }
+
+    .contact-form-row, .contact-page-card {
+        border-radius: 25px !important;
+    }
+
+    .contact-form-row {
+        margin: 10px auto !important;
+    }
+
+    .web-container {
+        margin-top: 14px !important;
+    }
+
+    .contact-location-row {
+        padding: 0 !important;
+    }
+}
+
+/* Extra small devices (phones, 320px and 480px) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .car-img {
+        height: 400px !important;
+    }
+
+    .carousel-caption {
+        top: 35% !important;
+    }
+
+    .pro-caption-head {
+        font-size: 30px !important;
+        font-weight: 700;
+    }
+
+    .pro-caption-body {
+        font-size: 25px !important
+    }
+
+    .contact-form-row {
+        padding: 5% !important;
+    }
+
+    #gmap_canvas1, .mapouter1 {
+        padding-bottom: 25px !important;
+    }
+
+    .icon-sect {
+        border-radius: 30%;
+    }
+
+    .service-div {
+        margin: 25px 0 0 0;
+    }
+
+    .service-head {
+        font-size: 20px;
+    }
+
+    .about-img, .why-img {
+        border-radius: 20px;
+        height: 300px;
+    }
+
+    .about-head, .why-head, .team-head, .contact-head {
+        text-align: center !important;
+        font-size: 25px !important;
+    }
+
+    .about-head, .why-head, .team-head {
+        margin: 4% 0 3% 0;
+    }
+
+    .team-name {
+        font-size: 20px !important;
+    }
+
+    .about-text, .why-text {
+        text-align: center;
+    }
+
+    .about-btn1, .about-btn2, .contact-sect-btn, .career-sect-btn {
+        justify-content: center;
+    }
+
+    .contact-sect, .career-sect {
+        margin: 5% 0 0 0;
+        padding: 5% 0;
+    }
+
+    .contact-text, .career-text {
+        font-size: 20px !important;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .why-btn {
+        margin-bottom: 7%;
+    }
+
+    .career-sect-btn {
+        justify-content: unset;
+    }
+
+    .img-div {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .mapouter {
+        margin: 5% 0;
+    }
+
+    #gmap_canvas, .mapouter {
+        height: 350px !important;
+    }
+
+    .page-container-overlay {
+        padding: 100px 0 !important;
+    }
+    
+    .pro-breadcrumb {
+        top: 150px !important;
+    }
+
+    .pro-page {
+        margin-top: 20px !important;
+    }
+
+    .text-page1 {
+        margin-top: 15px !important;
+    }
+
+    .text-page {
+        margin-top: 5px !important;
+    }
+
+    .image-page, .image-page1 {
+        margin-top: 10px !important;
+    }
+
+    .feature-page {
+        margin-top: 10px !important;
+    }
+      
+    .feature-head {
+        margin: 3% 0 !important;
+    }
+    
+    .feature-head1 {
+        margin: 0 0 4% 0 !important;
+    }
+
+    .text-div2 {
+        margin: 0 !important;
+    }
+    
+    .main-footer {
+        border-radius: 0 !important;
+        margin: 20px 0 0 0 !important;
+        padding: 30px 0 0 0 !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .car-img {
+        height: 450px !important;
+    }
+
+    .carousel-caption {
+        top: 35% !important;
+    }
+
+    .pro-caption-head {
+        font-size: 35px !important;
+    }
+
+    .pro-caption-body {
+        font-size: 25px !important;
+    }
+
+    .icon-sect {
+        border-radius: 30%;
+    }
+
+    .about-head, .why-head, .team-head {
+        text-align: center !important;
+        margin: 2% 0 !important;
+    }
+
+    .about-text, .why-text {
+        text-align: center;
+    }
+
+    #gmap_canvas1, .mapouter1 {
+        padding-bottom: 25px !important;
+    }
+
+    .text-div {
+        margin-top: 20px !important;
+    }
+
+    .about-btn1, .about-btn2, .contact-sect-btn, .career-sect-btn {
+        justify-content: center;
+    }
+
+    .why-btn {
+        margin-bottom: 5%;
+    }
+
+    .career-sect {
+        padding: 5% 0 !important;
+        margin: 5% 0 !important;
+    }
+
+    .contact-text, .career-text {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .team-div {
+        box-shadow: 10px 10px 7px #7568683d;
+        border-radius: 20px;
+        margin: 15px auto;
+        width: 65%;
+    }
+
+    .main-footer {
+        border-radius: 0 !important;
+        margin: 25px 0 0 0 !important;
+        padding: 35px 0 0 0 !important;
+    }
+
+    .details-head {
+        margin-top: 3%;
+    }
+
+    .contact-form-div {
+        margin: 0 20px;
+        width: 90%;
+    }
+
+    .contact-sect {
+        margin: 2% 0 0 0 !important;
+    }
+
+    .service-body {
+        margin: 0 auto !important;
+        width: 70% !important;
+    }
+
+    .pro-page {
+        margin-top: 20px !important;
+    }
+
+    .image-page1 {
+        margin-top: 0px !important;
+    }
+
+    .text-page {
+        margin-top: 0px !important;
+    }
+
+    .image-page {
+        margin-top: 5px !important;
+    }
+
+    .text-div2 {
+        margin: 0 !important;
+    }
+
+    .feature-page {
+        margin-top: 5px !important;
+    }
+      
+    .feature-head {
+        margin: 1% 0 !important;
+    }
+
+    .pro-breadcrumb {
+        top: 140px !important;
+    }
+    
+    .page-container-overlay {
+        padding: 100px 0 !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 769px and 991px) */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+    .car-img {
+        height: 450px !important;
+    }
+
+    .carousel-caption {
+        top: 35% !important;
+    }
+
+    #gmap_canvas1, .mapouter1 {
+        padding-bottom: 25px !important;
+    }
+
+    .service-body {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .about-head {
+        margin: 2% 0;
+    }
+
+    .about-head, .why-head {
+        text-align: center;
+    }
+
+    .why-head {
+        margin-bottom: 10px;
+    }
+
+    .about-btn1, .contact-sect-btn, .about-btn2, .career-sect-btn {
+        justify-content: center;
+    }
+
+    .contact-sect, .why-div {
+        margin: 2% 0 0 0;
+    }
+
+    .career-sect {
+        margin: 3% 0 2% 0;
+    }
+
+    .contact-text, .career-text {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .team-div {
+        box-shadow: 10px 10px 7px #7568683d;
+        border-radius: 20px;
+    }
+
+    #gmap_canvas, .mapouter {
+        border-radius: 20px !important;
+        height: 450px !important;
+    }
+
+    .contact-div {
+        margin: 2% 0 !important;
+    }
+
+    .details-div {
+        margin: 2% 0;
+    }
+
+    .team-head {
+        margin: 0 !important;
+    }
+
+    .team-div, .contact-form-div {
+        width: 65%;
+        margin: 20px auto 0;
+    }
+
+    .details-text {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .pro-page {
+        margin-top: 30px !important;
+    }
+
+    .text-page {
+        margin-top: 10px !important;
+    }
+
+    .image-page {
+        margin-top: 5px !important;
+    }
+
+    .main-footer {
+        border-radius: 0 !important;
+        margin: 20px 0 0 0 !important;
+        padding: 30px 0 0 0 !important;
+    }
+
+    .pro-breadcrumb {
+        top: 145px !important;
+    }
+    
+    .page-container-overlay {
+        padding: 100px 0 !important;
+    }
+
+    .pro-breadcrumb {
+        top: 175px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 992px and 1399px) */
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+    .title-bar-div {
+        display: none !important;
+    }
+
+    .about-img, .why-img {
+        height: 418px;
+    }
+
+    .team-img {
+        height: 200px !important;
+    }
+
+    .team-name {
+        font-size: 20px;
+    }
+
+    .main-footer {
+        border-radius: 50px 0 0 0 !important;
+        margin: 30px 0 0 0 !important;
+        padding: 40px 0 0 0 !important;
+    }
+
+    #gmap_canvas, .mapouter {
+        height: 670px !important;
+    }
+
+    .feature-img {
+        height: 445px !important;
+        border-radius: 20px !important;
+    }
+
+    .about-img1, .why-img1 {
+        height: 365px !important;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and more) */
+@media only screen and (min-width: 1400px) {
+    .about-text, .why-text {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .about-img, .why-img {
+        height: 360px !important;
+    }
+
+    .about-img1, .why-img1 {
+        height: 305px !important;
+    }
+}
