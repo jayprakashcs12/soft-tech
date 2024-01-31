@@ -28,6 +28,12 @@
     }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 991.9px) {
+    .pro-breadcrumb {
+        top: 145px !important;
+    }
+}
+
 /* Extra small devices (phones, 320px and 480px) */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -131,10 +137,6 @@
 
     .page-container-overlay {
         padding: 100px 0 !important;
-    }
-    
-    .pro-breadcrumb {
-        top: 150px !important;
     }
 
     .pro-page {
@@ -304,20 +306,10 @@
     .page-container-overlay {
         padding: 100px 0 !important;
     }
-
-    .accordion-body {
-        font-size: 14px;
-        text-align: justify !important;
-    }
 }
 
 /* Large devices (laptops/desktops, 769px and 991px) */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
-    
-    .accordion-body {
-        font-size: 14px;
-        text-align: justify !important;
-    }
 
     .car-img {
         height: 450px !important;
@@ -420,10 +412,12 @@
         padding: 30px 0 0 0 !important;
     }
 
-    .pro-breadcrumb {
-        top: 145px !important;
+    .breadcrumb-head {
+        font-size: 30px !important;
     }
-    
+}
+
+@media screen and (max-width:991.9px) {
     .page-container-overlay {
         padding: 100px 0 !important;
     }
@@ -435,6 +429,11 @@
 
 /* Extra large devices (large laptops and desktops, 992px and 1399px) */
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
+
+    .pro-breadcrumb {
+        top: 180px !important;
+    }
+
     .title-bar-div {
         display: none !important;
     }
@@ -468,10 +467,6 @@
 
     .about-img1, .why-img1 {
         height: 365px !important;
-    }
-
-    .pro-breadcrumb {
-        top: 180px !important;
     }
 }
 
