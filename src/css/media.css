@@ -401,8 +401,8 @@
         padding: 100px 0 !important;
     }
 
-    .pro-breadcrumb {
-        top: 175px !important;
+    .breadcrumb-head {
+        font-size: 30px !important;
     }
 }
 
