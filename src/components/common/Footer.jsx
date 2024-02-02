@@ -27,7 +27,7 @@ const Footer = () => {
                                     <Link className='footer-link' to="/ios-development">iOS Development</Link>
                                 </li>
                                 <li className='footer-order'>
-                                    <Link className='footer-link' to="/windows-development">Windows Development</Link>
+                                    <Link className='footer-link' to="/website-development">Website Development</Link>
                                 </li>
                             </ul>
                         </Col>
