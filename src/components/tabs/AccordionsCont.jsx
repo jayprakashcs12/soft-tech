@@ -44,7 +44,7 @@ const AccordionsCont = ({titles, titleSummary, descriptions}) => {
             </Accordion>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey={titles[2].tabTitle} className='no-border'>
+        <Accordion.Item eventKey={titles[2].tabTitle}>
           <Accordion.Header className='pro-accordion-head'>{titles[2].tabTitle}</Accordion.Header>
           <Accordion.Body className='pro-accordion-body'>
             <Accordion defaultActiveKey={descriptions[0].tabTitle}>
