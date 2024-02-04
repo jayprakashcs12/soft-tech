@@ -22,10 +22,10 @@ const SmallNav = (props) => {
                                 <NavLink className="links small-nav-links" eventKey="3" as={Link} to="/android-development">Android Development</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="pro-drop-item">
-                                <NavLink className="links small-nav-links" eventKey="4" as={Link} to="/ios-development">iOS Development</NavLink>
+                                <NavLink className="links small-nav-links" eventKey="4" as={Link} to="/mern-development">MERN Development</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="pro-drop-item">
-                                <NavLink className="links small-nav-links" eventKey="5" as={Link} to="/website-development">Website Development</NavLink>
+                                <NavLink className="links small-nav-links" eventKey="5" as={Link} to="/sql-development">SQL Development</NavLink>
                             </NavDropdown.Item>
                         </NavDropdown>
                         <NavLink className="links small-nav-links" eventKey="6" as={Link} to="/career" >Career</NavLink>

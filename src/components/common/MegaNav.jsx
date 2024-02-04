@@ -41,10 +41,10 @@ const MegaNav = (props) => {
                                     <NavLink to="/android-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Android Development</NavLink>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <NavLink to="/ios-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">iOS Development</NavLink>
+                                    <NavLink to="/mern-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">MERN Development</NavLink>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <NavLink to="/website-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Website Development</NavLink>
+                                    <NavLink to="/sql-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">SQL Development</NavLink>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <NavLink to="/career" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Career</NavLink>

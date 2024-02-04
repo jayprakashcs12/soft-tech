@@ -5,9 +5,9 @@ import Footer from './components/common/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Android from './components/features/Android';
-import Ios from './components/features/Ios';
+import Sql from './components/features/Sql';
 import Career from './components/pages/Career';
-import Website from './components/features/Website';
+import Mern from './components/features/Mern';
 import Contact from './components/pages/Contact';
 import Privacy from './components/pages/Privacy';
 import Terms from './components/pages/Terms';
@@ -21,12 +21,12 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/career" element={<Career />} />
         <Route path="/about-us" element={<About />} />
-        <Route path="/ios-development" element={<Ios />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/android-development" element={<Android />} />
-        <Route path="/website-development" element={<Website />} />
+        <Route path="/sql-development" element={<Sql />} />
+        <Route path="/mern-development" element={<Mern />} />
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="/terms-consitions" element={<Terms />} />
+        <Route path="/android-development" element={<Android />} />
       </Routes>
       <Footer />
     </React.Fragment>

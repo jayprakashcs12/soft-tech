@@ -5,7 +5,6 @@ import AboutImg2 from "../../img/about/about-us-002.jpg";
 import ProImg1 from "../../img/team/team-001.jpg";
 import ProImg2 from "../../img/team/team-002.jpg";
 import ProImg3 from "../../img/team/team-003.jpg";
-import ProImg4 from "../../img/team/team-004.jpg";
 import ImgCarousel from '../common/ImgCarousel';
 import { Link } from 'react-router-dom';
 
@@ -21,20 +20,19 @@ const Home = () => {
       description: 'Building and optimizing Android mobile applications with a focus on performance, usability, and seamless user experience.'
     },
     {
-      icon: 'bi-phone', title: 'iOS Development',
-      description: 'Creating high-quality and user-friendly iOS mobile applications, leveraging Apple\'s technology for optimal performance.'
+      icon: 'bi-browser-chrome', title: 'MERN Development',
+      description: 'Creating top-notch web applications with MongoDB, Express.js, React, and Node.js (MERN stack) for seamless user experience and robust functionality.'
     },
     {
-      icon: 'bi-browser-chrome', title: 'Website Development',
-      description: 'Building software applications for the Windows OS, ensuring functionality, compatibility, and a seamless user experience.'
+      icon: 'bi-database', title: 'SQL Development',
+      description: 'Design and implement a robust backend database schema to support high-quality, utilizing database technology for optimal performance.'
     }
   ];
 
   let developers = [
-    { name: 'Anil Srivastava', position: 'Core Java' },
-    { name: 'Prateek Malhotra', position: 'MERN Stack' },
-    { name: 'Vijay Deenanath', position: 'Dot Net' },
-    { name: 'Murli Singhaniya', position: 'Wordpress' },
+    { name: 'Anil Srivastava', position: 'Android' },
+    { name: 'Dinesh Malhotra', position: 'MERN Stack' },
+    { name: 'Vijay Deenanath', position: 'SQL' },
   ];
 
   return (
@@ -149,10 +147,10 @@ const Home = () => {
         <h2 className="team-head"> Our Professional Team </h2>
         <Row>
           {developers.map((developer, i) => (
-            <Col lg={3} key={i}>
+            <Col lg={4} key={i}>
               <div className="team-div">
                 <div className="image-div">
-                  <Image className="team-img" src={i === 0 ? ProImg1 : i === 1 ? ProImg2 : i === 2 ? ProImg3 : ProImg4} alt={developer.name} />
+                  <Image className="team-img" src={i === 0 ? ProImg1 : i === 1 ? ProImg2 : i === 2 ? ProImg3 : ""} alt={developer.name} />
                 </div>
                 <div className="team-info">
                   <h2 className="team-name">{developer.name}</h2>

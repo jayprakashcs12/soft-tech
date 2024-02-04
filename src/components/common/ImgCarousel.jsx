@@ -11,7 +11,7 @@ const ImgCarousel = () => {
             captionHead: 'Android Developer', captionBody: 'Coding, exploring, and creating memories with fellow developers. Android bliss...!'
         },
         {
-            captionHead: 'iOS Developer', captionBody: 'Building, experimenting, and forging memories alongside fellow iOS developers. iOS bliss...!'
+            captionHead: 'MERN Developer', captionBody: 'Building, experimenting, and forging memories alongside fellow MERN developers. MERN bliss...!'
         },
         {
             captionHead: 'Website Developer', captionBody: 'Coding, examining, and making memories with individual developers. Website bliss...!'

@@ -1,22 +1,22 @@
 import React, { useLayoutEffect } from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import ProImage from "../../img/pages/sql.jpg";
 import TitlePage from '../common/TitlePage';
-import ProImage from "../../img/pages/website.jpg";
 
-const Website = () => {
+const Ios = () => {
 
     useLayoutEffect(() => {
-        document.title = "Website Development | Software";
+        document.title = "SQL Development | Software";
     });
 
     return (
-
+        
         <React.Fragment>
-            <TitlePage title="Website Development" />
+            <TitlePage title="SQL Development" />
             <Container className='pro-page feature-page'>
                 <Row>
                     <Col lg={6}>
-                        <h2 className="about-head feature-head">Website Development</h2>
+                        <h2 className="about-head feature-head">SQL Development</h2>
                         <p className="about-text">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum dignissimos vitae ex ipsa ratione
                             tempora voluptatem sit perspiciatis reprehenderit? Officia, excepturi vel accusamus ipsa
@@ -58,4 +58,4 @@ const Website = () => {
     )
 }
 
-export default Website;
+export default Ios;
