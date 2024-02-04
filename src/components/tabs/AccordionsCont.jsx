@@ -37,7 +37,7 @@ const AccordionsCont = ({titles, titleSummary, descriptions}) => {
                 <Accordion.Header className='pro-accordion-head'>{titleSummary[1].tabTitle}</Accordion.Header>
                 <Accordion.Body className='pro-accordion-body'>{descriptions[1].tabResponse}</Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey={descriptions[2].tabTitle} className='no-border'>
+              <Accordion.Item eventKey={descriptions[2].tabTitle}>
                 <Accordion.Header className='pro-accordion-head'>{titleSummary[2].tabTitle}</Accordion.Header>
                 <Accordion.Body className='pro-accordion-body'>{descriptions[1].tabRequirements}</Accordion.Body>
               </Accordion.Item>
@@ -56,7 +56,7 @@ const AccordionsCont = ({titles, titleSummary, descriptions}) => {
                 <Accordion.Header className='pro-accordion-head'>{titleSummary[1].tabTitle}</Accordion.Header>
                 <Accordion.Body className='pro-accordion-body'>{descriptions[2].tabResponse}</Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey={descriptions[2].tabTitle} className='no-border'>
+              <Accordion.Item eventKey={descriptions[2].tabTitle}>
                 <Accordion.Header className='pro-accordion-head'>{titleSummary[2].tabTitle}</Accordion.Header>
                 <Accordion.Body className='pro-accordion-body'>{descriptions[2].tabRequirements}</Accordion.Body>
               </Accordion.Item>
