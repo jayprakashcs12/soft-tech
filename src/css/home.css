@@ -78,10 +78,13 @@
     justify-content: end;
 }
 
-.contact-sect {
-    background: linear-gradient(80deg,#40d5ff,#521cab);
+.contact-sect, .career-sect {
     padding: 3% 0;
     margin: 2% 0;
+}
+
+.contact-sect {
+    background: linear-gradient(80deg,#521cab,#40d5ff);
 }
 
 .contact-text {
@@ -110,8 +113,6 @@
 
 .career-sect {
     background: linear-gradient(80deg,#40d5ff,#521cab);
-    padding: 3% 0;
-    margin: 2% 0;
 }
 
 .team-div:hover {

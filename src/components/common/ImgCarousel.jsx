@@ -8,13 +8,13 @@ const ImgCarousel = () => {
 
     let carousels = [
         {
-            captionHead: 'Android Developer', captionBody: 'Coding, exploring, and creating memories with fellow developers. Android bliss...!'
+            captionHead: 'Android Developer', captionBody: 'Coding, exploring, and creating memories with fellow Android developers. Android bliss...!'
         },
         {
-            captionHead: 'iOS Developer', captionBody: 'Building, experimenting, and forging memories alongside fellow iOS developers. The joy of iOS development...!'
+            captionHead: 'iOS Developer', captionBody: 'Building, experimenting, and forging memories alongside fellow iOS developers. iOS happiness...!'
         },
         {
-            captionHead: 'Website Developer', captionBody: 'Crafting, exploring, and crafting experiences alongside dedicated Website developers. Embracing the thrill of web development...!'
+            captionHead: 'Website Developer', captionBody: 'Assembling, testing, and fashioning recollections by the Website developers. Website joy...!'
         }
     ];
 
