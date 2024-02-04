@@ -25,7 +25,7 @@ const Home = () => {
       description: 'Creating high-quality and user-friendly iOS mobile applications, leveraging Apple\'s technology for optimal performance.'
     },
     {
-      icon: 'bi-microsoft', title: 'Windows Development',
+      icon: 'bi-browser-chrome', title: 'Website Development',
       description: 'Building software applications for the Windows OS, ensuring functionality, compatibility, and a seamless user experience.'
     }
   ];

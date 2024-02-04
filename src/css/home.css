@@ -154,8 +154,11 @@
     width: 100%;
 }
 
-.about-img, .feature-img, .team-img, .why-img {
+.about-img, .feature-img, .team-img, .why-img, .icon-sect {
     cursor: pointer;
+}
+
+.about-img, .feature-img, .team-img, .why-img {
     transition: 0.3s;
     filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */

@@ -3,26 +3,30 @@
     padding: 0;
 }
 
+.carousel-inner {
+    background: linear-gradient(to right,rgba(37,37,37,.9),rgba(37,37,37,.7)) !important;
+    color: #fff;
+}
+
 .carousel-caption {
     position: absolute;
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding: 2.25rem;
     top: 35%;
     text-align: center;
+    height: max-content;
+    border-radius: 20px;
 }
 
 .pro-caption-head {
     font-size: 40px;
-    color: #212529;
     margin: 0;
 }
 
 .pro-caption-body {
     font-size: 30px;
-    color: #dc3545;
 }
 
 .carousel-indicators {
