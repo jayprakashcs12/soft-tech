@@ -6,7 +6,7 @@ import ProImage from "../../img/pages/android.jpg";
 const Android = () => {
 
     useLayoutEffect(() => {
-        document.title = "Android Development | Software";
+        document.title = "Android Development | Softtech";
     });
 
     return (
