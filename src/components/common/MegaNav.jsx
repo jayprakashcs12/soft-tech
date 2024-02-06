@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Image, Nav, NavDropdown, Navbar, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const MegaNav = (props) => {
 
     let logoImg = props.logoImg;
+
+    const [dropShow, setDropShow] = useState(false);
 
     return (
         
@@ -36,7 +38,7 @@ const MegaNav = (props) => {
                         <Nav className="me-auto">
                             <NavLink to="/" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Home</NavLink>
                             <NavLink to="/about-us" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">About Us</NavLink>
-                            <NavDropdown title="Our Services" id="basic-nav-dropdown">
+                            <NavDropdown title="Our Services" id="basic-nav-dropdown" show={dropShow} onMouseEnter={() => setDropShow(true)} onMouseLeave={() => setDropShow(false)}>
                                 <NavDropdown.Item>
                                     <NavLink to="/android-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Android Development</NavLink>
                                 </NavDropdown.Item>
