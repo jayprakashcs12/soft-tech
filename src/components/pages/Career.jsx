@@ -1,9 +1,10 @@
 import React, { useLayoutEffect, useState } from 'react'
-import { Container } from 'react-bootstrap';
+import { Accordion, Col, Container, Row } from 'react-bootstrap';
 import TitlePage from "../common/TitlePage";
 import TabsCont from '../tabs/TabsCont';
 import AccordionsCont from '../tabs/AccordionsCont';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import CareerPage from '../common/CareerPage';
 
 const Career = () => {
 
@@ -63,7 +64,21 @@ const Career = () => {
                 }
 
                 <div className="join-div">
-                    <h4>Empower Your Future: <Link className='pro-career-link' to="/contact-us">Click Here</Link> to Join Us!</h4>
+                    {/* <h4>Empower Your Future: <Link className='pro-career-link' to="/contact-us">Click Here</Link> to Join Us!</h4> */}
+                    <Accordion defaultActiveKey="0">
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header className='pro-accordion-head'>Career Form</Accordion.Header>
+                            <Accordion.Body className='pro-accordion-body'>
+                                <Row>
+                                    <Col lg={2}></Col>
+                                    <Col lg={8}>
+                                        <CareerPage />
+                                    </Col>
+                                    <Col lg={2}></Col>
+                                </Row>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
                 </div>
             </Container>
         </React.Fragment>

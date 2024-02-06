@@ -70,9 +70,18 @@
     height: 20px;
 }
 
-.pro-input, .pro-text {
+.pro-input, .pro-select, .pro-text {
     border: 1px solid #22222240 !important;
     box-shadow: 0 20px 30px #22222212;
+}
+
+.pro-select {
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.pro-select select {
+    border-radius: 10px;
 }
 
 .pro-input {
@@ -93,13 +102,7 @@
     height: 20px;
 }
 
-.pro-input, .pro-text {
-    border: 1px solid #22222240!important;
-    box-shadow: 0 20px 30px #22222212 !important;
-    padding: 20px;
-}
-
-.pro-input:focus, .pro-text:focus {
+.pro-input:focus, .pro-select:focus, .pro-text:focus {
     box-shadow: 0 7.5px 15px #2223!important;
 }
 
