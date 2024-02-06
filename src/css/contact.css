@@ -89,7 +89,8 @@
 }
 
 .pro-text {
-    padding: 16px;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .pro-form {
