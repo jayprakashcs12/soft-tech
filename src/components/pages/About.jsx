@@ -7,7 +7,7 @@ import AboutImg2 from "../../img/about/about-us-002.jpg";
 const About = () => {
 
     useLayoutEffect(() => {
-        document.title = "About Us | Software";
+        document.title = "About Us | SoftTech";
     })
 
     return (

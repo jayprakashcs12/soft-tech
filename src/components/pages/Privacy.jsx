@@ -5,7 +5,7 @@ import TitlePage from '../common/TitlePage';
 const Privacy = () => {
 
     useLayoutEffect(() => {
-        document.title = "Privacy Policy | Software";
+        document.title = "Privacy Policy | SoftTech";
     });
 
     return (
@@ -14,7 +14,7 @@ const Privacy = () => {
             <TitlePage title="Privacy Policy" />
             <Container className='pro-page'>
                 <p className="about-text">
-                    At Software Company, we are committed to protecting the privacy and security of our users' personal
+                    At SoftTech, we are committed to protecting the privacy and security of our users' personal
                     information. This Privacy Policy outlines how we collect, use, and safeguard your data when you interact
                     with our software and services. By using our products, you agree to the practices described herein.
                 </p>
@@ -91,7 +91,7 @@ const Privacy = () => {
                 </ul>
 
                 <p className="about-text">
-                    For any questions or concerns regarding this Privacy Policy or your data, please contact us at jaysingh.cs12@mpgi.edu.in. 
+                    For any questions or concerns regarding this Privacy Policy or your data, please contact us at jayprakash185@gmail.com. 
                     Your privacy matters to us, and we are committed to addressing any issues promptly and transparently.
                 </p>
             </Container>

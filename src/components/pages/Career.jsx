@@ -14,7 +14,7 @@ const Career = () => {
     };
 
     useLayoutEffect(() => {
-        document.title = "Career | Software";
+        document.title = "Career | SoftTech";
         window.addEventListener('resize', handleResize); // Add event listener for window resize
         return () => {
           window.removeEventListener('resize', handleResize); // Cleanup the event listener when the component unmounts

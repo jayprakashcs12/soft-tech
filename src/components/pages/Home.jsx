@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
   useLayoutEffect(() => {
-    document.title = "Software";
+    document.title = "SoftTech";
   });
 
   let services = [

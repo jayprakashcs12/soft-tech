@@ -5,7 +5,7 @@ import TitlePage from '../common/TitlePage';
 const Terms = () => {
 
     useLayoutEffect(() => {
-        document.title = "Terms & Conditions | Software";
+        document.title = "Terms & Conditions | SoftTech";
     });
 
     return (
@@ -14,13 +14,13 @@ const Terms = () => {
             <TitlePage title="Terms & Conditions" />
             <Container className='pro-page'>
                 <p className="about-text">
-                    Welcome to Software Company! These Terms and Conditions govern your use of our software, products, and services. By accessing or using our software, you agree to comply with these terms. Please read them carefully.
+                    Welcome to SoftTech! These Terms and Conditions govern your use of our software, products, and services. By accessing or using our software, you agree to comply with these terms. Please read them carefully.
                 </p>
 
                 <ul className="pro-unorder-list">
                     <li className="pro-list-item">
                         <b> License: </b>
-                        Our software is licensed, not sold, to you. [Software Company Name] grants you a limited, non-exclusive, non-transferable, and revocable license to use the software for your personal or business purposes. You may not copy, modify, distribute, sell, or sublicense our software without our prior written consent.
+                        Our software is licensed, not sold, to you. SoftTech grants you a limited, non-exclusive, non-transferable, and revocable license to use the software for your personal or business purposes. You may not copy, modify, distribute, sell, or sublicense our software without our prior written consent.
                     </li>
 
                     <li className="pro-list-item">
@@ -30,7 +30,7 @@ const Terms = () => {
 
                     <li className="pro-list-item">
                         <b> Intellectual Property: </b>
-                        All intellectual property rights related to our software, including but not limited to copyrights, trademarks, and patents, are owned by [Software Company Name]. You shall not reproduce, modify, or use any of our intellectual property without our explicit permission.
+                        All intellectual property rights related to our software, including but not limited to copyrights, trademarks, and patents, are owned by SoftTech. You shall not reproduce, modify, or use any of our intellectual property without our explicit permission.
                     </li>
 
                     <li className="pro-list-item">
@@ -55,12 +55,12 @@ const Terms = () => {
 
                     <li className="pro-list-item">
                         <b> Limitation of Liability: </b>
-                        In no event shall [Software Company Name] be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of our software, even if we have been advised of the possibility of such damages.
+                        In no event shall Software be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of our software, even if we have been advised of the possibility of such damages.
                     </li>
 
                     <li className="pro-list-item">
                         <b> Indemnification:  </b>
-                        You agree to indemnify and hold [Software Company Name] harmless from any claims, damages, losses, or expenses, including attorney's fees, arising from your use of our software or any violation of these Terms and Conditions.
+                        You agree to indemnify and hold SoftTech harmless from any claims, damages, losses, or expenses, including attorney's fees, arising from your use of our software or any violation of these Terms and Conditions.
                     </li>
 
                     <li className="pro-list-item">

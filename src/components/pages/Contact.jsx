@@ -6,8 +6,45 @@ import FormPage from "../common/FormPage";
 const Contact = () => {
 
     useLayoutEffect(() => {
-        document.title = "Contact Us | Software";
+        document.title = "Contact Us | SoftTech";
     });
+
+    const contactPages = [
+        {
+            location: 'LakeView Apartments',
+            city: 'Bangalore',
+            state: 'Karnataka',
+            zip: '560025',
+            className: 'location-card'
+        },
+        {
+            location: 'OceanView Heights',
+            city: 'Mumbai',
+            state: 'Maharashtra',
+            zip: '400001',
+            className: 'time-card'
+        },
+        {
+            location: 'MarinaView Vista',
+            city: 'Chennai',
+            state: 'Tamil Nadu',
+            zip: '600001',
+            className: 'contact-card'
+        }
+    ];
+
+    const ContactPage = ({ location, city, state, zip, className }) => (
+        <Col lg={4} className={`contact-page-card ${className}`}>
+            <div className="contact_module_head">
+                <h4 className="contact-heading"> Branch </h4>
+            </div>
+            <div className="contact_module_body">
+                <p className="contact-body">
+                    {location}, <br /> {city}, {state} - {zip}
+                </p>
+            </div>
+        </Col>
+    );
 
     return (
         
@@ -16,37 +53,9 @@ const Contact = () => {
             <Container className='web-container'>
                 <h2 className="pro-head"> Other Office Location </h2>
                 <Row className="contact-location-row pro-container-div">
-                    <Col lg={4} className="contact-page-card location-card">
-                        <div className="contact_module_head">
-                            <h4 className="contact-heading"> Branch </h4>
-                        </div>
-                        <div className="contact_module_body">
-                            <p className="contact-body"> 
-                                Lakeview Apartments,  <br/> Bangalore, Karnataka - 560025
-                            </p>
-                        </div>
-                    </Col>
-                    <Col lg={4} className="contact-page-card time-card">
-                        <div className="contact_module_head">
-                            <h4 className="contact-heading"> Branch </h4>
-                        </div>
-                        <div className="contact_module_body">
-                            <p className="contact-body"> 
-                                Oceanview Heights, <br/> Mumbai, Maharashtra - 400001
-                            </p>
-                        </div>
-                    </Col>
-
-                    <Col lg={4} className="contact-page-card contact-card">
-                        <div className="contact_module_head">
-                            <h4 className="contact-heading"> Branch </h4>
-                        </div>
-                        <div className="contact_module_body">
-                            <p className="contact-body"> 
-                                Marina Vista,  <br/> Chennai, Tamil Nadu - 600001
-                            </p>
-                        </div>
-                    </Col>
+                    {contactPages.map((contactPage, index) => (
+                        <ContactPage key={index} {...contactPage} />
+                    ))}
                 </Row>
                 <Row className='contact-form-row '>
                     <Col lg={2}></Col>

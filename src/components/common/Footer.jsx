@@ -12,7 +12,7 @@ const Footer = () => {
                         <Col lg={3}>
                             <h2 className="foot-text">About Us</h2>
                             <p className='footer-para'>
-                                At Software, we understand the value of your current application investments. 
+                                At SoftTech, we understand the value of your current application investments. 
                                 That's why we provide tailored solutions to ensure a smooth transition, allowing you to leverage and enhance your existing applications within more modern, sophisticated systems. 
                                 Our commitment is to empower your business with the latest technologies, optimizing efficiency and driving innovation.
                             </p>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <Row className='second-footer'>
                         <Col lg={6}>
                             <p className="copyright text-left">
-                                Software Pvt Ltd © 2024. &nbsp; | &nbsp; All Rights Reserved.
+                                SoftTech Pvt Ltd © 2024. &nbsp; | &nbsp; All Rights Reserved.
                             </p>
                         </Col>
                         <Col lg={6}>
