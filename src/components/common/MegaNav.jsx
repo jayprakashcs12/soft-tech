@@ -19,7 +19,7 @@ const MegaNav = (props) => {
                                     <i className="bi bi-telephone pro-icon"></i> <a className="title-list" href="tel:+91 45 8213 6709">&nbsp; +91 45 8213 6709</a>
                                 </li>
                                 <li>
-                                    <i className="bi bi-geo-alt pro-icon"></i> <span className="title-list"> 2<sup>nd</sup> Floor, Crystal Springs, Vivek Nagar, Lucknow, Uttar Pradesh - 226001 </span>
+                                    <i className="bi bi-geo-alt pro-icon"></i> <span className="title-list"> 2<sup>nd</sup> Floor, Sabiya Complex, Dubagga, Lucknow, Uttar Pradesh - 226003 </span>
                                 </li>
                             </ul>
                         </Col>

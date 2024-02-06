@@ -49,7 +49,7 @@ const Footer = () => {
                             <h2 className="foot-text">How To Reach</h2>
                             <ul className='footer-unorder'>
                                 <li className='footer-order'>
-                                    <i className="bi bi-building-fill footer-icon"></i> 2<sup>nd</sup> Floor, Crystal Springs, Vivek Nagar, Lucknow, Uttar Pradesh - 226001
+                                    <i className="bi bi-building-fill footer-icon"></i> 2<sup>nd</sup> Floor, Sabiya Complex, Dubagga, Lucknow, Uttar Pradesh - 226003
                                 </li>
                                 <li className="footer-order">
                                     <i className="bi bi-telephone footer-icon"></i><a className='foot-anchor' href="tel:+91 45 8213 6709">&nbsp; +91 45 8213 6709</a>

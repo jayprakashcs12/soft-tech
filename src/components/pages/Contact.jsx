@@ -77,8 +77,9 @@ const Contact = () => {
                 </Row>
             </Container>
             <div className="mapouter1" style={{padding:"25px 0 0 0"}}>
-                <iframe title="Google Map" id="gmap_canvas1" 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.8813903704936!2d80.38057177595947!3d26.427303930781356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c40df301ea069%3A0xbef21045e48bad5f!2sJagai%20Purwa%2C%20J%20K%20Puri%2C%20Kanpur%2C%20Uttar%20Pradesh%20208007!5e0!3m2!1sen!2sin!4v1706183334195!5m2!1sen!2sin"
+                <iframe title="Google Map" id="gmap_canvas1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.872905969728!2d80.85481907494615!3d26.875778761677637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfe2a61196c23%3A0xd9fcefe31cdba6a7!2sSabiya%20Complex!5e0!3m2!1sen!2sin!4v1707232556842!5m2!1sen!2sin" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
         </React.Fragment>
