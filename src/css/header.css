@@ -77,3 +77,11 @@
     text-align: left !important;
     /* padding: 0 50px !important; */
 }
+
+.logo-img {
+    height: 60px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
