@@ -6,7 +6,7 @@ const MegaNav = (props) => {
 
     let logoImg = props.logoImg;
 
-    const [dropShow, setDropShow] = useState(false);
+    let [dropShow, setDropShow] = useState(false);
 
     return (
         
