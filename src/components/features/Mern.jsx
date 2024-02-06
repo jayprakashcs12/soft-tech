@@ -6,7 +6,7 @@ import ProImage from "../../img/pages/mern.jpg";
 const Mern = () => {
 
     useLayoutEffect(() => {
-        document.title = "MERN Development | Softtech";
+        document.title = "MERN Development | SoftTech";
     });
 
     return (

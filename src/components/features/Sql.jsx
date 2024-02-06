@@ -6,7 +6,7 @@ import TitlePage from '../common/TitlePage';
 const Ios = () => {
 
     useLayoutEffect(() => {
-        document.title = "SQL Development | Softtech";
+        document.title = "SQL Development | SoftTech";
     });
 
     return (
