@@ -38,8 +38,8 @@ const CareerPage = () => {
                     <Form.Label className="pro-label"> Qualification </Form.Label> <span className="imp-text-label">*</span>
                     <Form.Select className='pro-select' size="lg" name="qualification" value={qualification} onChange={(e) => {setQualification(e.target.value)}}>
                         <option>Select Your Qualification</option>
-                        {["B.C.A.", "B.SC", "B.Tech", "M.C.A.", "M.SC", "M.Tech"].map((option, index) => (
-                            <option key={index} value={option}>{option}</option>
+                        {["B.C.A.", "B.SC.", "B.Tech", "M.C.A.", "M.SC.", "M.Tech"].map((option, i) => (
+                            <option key={i} value={option}>{option}</option>
                         ))}
                     </Form.Select>
                 </Form.Group>
@@ -48,8 +48,8 @@ const CareerPage = () => {
                     <Form.Label className="pro-label"> Job Profile </Form.Label> <span className="imp-text-label">*</span>
                     <Form.Select className='pro-select' size="lg" name="jobProfile" value={jobProfile} onChange={(e) => {setJobProfile(e.target.value)}}>
                         <option>Select Job Profile</option>
-                        {['Android Developer', 'iOS Developer', 'MERN Developer'].map((profile, index) => (
-                            <option key={index} value={profile}>{profile}</option>
+                        {['Android Developer', 'MERN Developer', 'SQL Developer',].map((profile, i) => (
+                            <option key={i} value={profile}>{profile}</option>
                         ))}
                     </Form.Select>
                 </Form.Group>
@@ -58,8 +58,8 @@ const CareerPage = () => {
                     <Form.Label className="pro-label"> Experience </Form.Label> <span className="imp-text-label">*</span>
                     <Form.Select className='pro-select' size="lg" name="experience" value={experience} onChange={(e) => setExperience(e.target.value)}>
                         <option>Select Your Experience</option>
-                        {["Fresher", "Less than 1 Year", "1 - 3 Year", "3 - 5 Year", "More than 5 Years"].map((option, index) => (
-                            <option key={index} value={option}>{option}</option>
+                        {["Fresher", "Less than 1 Year", "1 - 3 Years", "3 - 5 Years", "More than 5 Years"].map((option, i) => (
+                            <option key={i} value={option}>{option}</option>
                         ))}
                     </Form.Select>
                 </Form.Group>
@@ -77,7 +77,7 @@ const CareerPage = () => {
 
                 <div className="d-grid gap-2 col-6 mx-auto pro-btn">
                     <Button className="btn btn-primary" type="button">
-                        Send <i className="bi bi-send pro-unique-icon"></i>
+                        Submit <i className="bi bi-send pro-unique-icon"></i>
                     </Button>
                 </div>
             </Form>

@@ -3,7 +3,7 @@ import { Col, Container, Image, Row } from 'react-bootstrap';
 import ProImage from "../../img/pages/sql.jpg";
 import TitlePage from '../common/TitlePage';
 
-const Ios = () => {
+const Sql = () => {
 
     useLayoutEffect(() => {
         document.title = "SQL Development | SoftTech";
@@ -58,4 +58,4 @@ const Ios = () => {
     )
 }
 
-export default Ios;
+export default Sql;
