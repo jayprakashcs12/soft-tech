@@ -47,7 +47,7 @@ const CareerPage = () => {
                 <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                     <Form.Label className="pro-label"> Job Profile </Form.Label> <span className="imp-text-label">*</span>
                     <Form.Select className='pro-select' size="lg" name="jobProfile" value={jobProfile} onChange={(e) => {setJobProfile(e.target.value)}}>
-                        <option>Select Job Profile</option>
+                        <option>Select Your Job Profile</option>
                         {['Android Developer', 'MERN Developer', 'SQL Developer',].map((profile, i) => (
                             <option key={i} value={profile}>{profile}</option>
                         ))}
