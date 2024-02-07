@@ -161,3 +161,27 @@
 .contact-pro-label, .contact-accordion-btn:not(.collapsed) {
     color: #fff !important;
 }
+
+.gender-select {
+    display: inline-flex;
+}
+
+.pro-switch {
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 0;
+}
+
+.form-check-input, .pro-switch .form-check-input {
+    cursor: pointer;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.pro-switch .form-check-input {
+    width: 4rem !important;
+    height: 2rem !important;
+    margin-right: 10px !important;
+}
