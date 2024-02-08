@@ -181,7 +181,7 @@
 }
 
 .pro-switch .form-check-input {
-    width: 4rem !important;
-    height: 2rem !important;
-    margin-right: 10px !important;
+    width: 4rem;
+    height: 2rem;
+    margin-right: 10px;
 }
