@@ -4,6 +4,7 @@ import TitlePage from "../common/TitlePage";
 import TabsCont from '../tabs/TabsCont';
 import AccordionsCont from '../tabs/AccordionsCont';
 import CareerPage from '../common/CareerPage';
+import ProPage from '../common/ProPage';
 
 const Career = () => {
 
@@ -71,6 +72,7 @@ const Career = () => {
                                     <Col lg={2}></Col>
                                     <Col lg={8}>
                                         <CareerPage />
+                                        <ProPage />
                                     </Col>
                                     <Col lg={2}></Col>
                                 </Row>

@@ -65,23 +65,26 @@
 }
 
 .pro-input {
-    border-radius: 50px;
     font-size: 15px;
     height: 20px;
 }
 
-.pro-input, .pro-select, .pro-text {
+.pro-input, .latest-select .css-13cymwt-control {
+    border-radius: 50px; 
+}
+
+.latest-select .css-t3ipsp-control:hover {
+    border-radius: 50px !important; 
+}
+
+.pro-input, .file-select, .pro-text {
     border: 1px solid #22222240 !important;
     box-shadow: 0 20px 30px #22222212;
 }
 
-.pro-select {
+.file-select {
     border-radius: 20px;
     font-size: 15px;
-}
-
-.pro-select select {
-    border-radius: 10px;
 }
 
 .pro-input {
@@ -97,13 +100,7 @@
     margin-top: 10px;
 }
 
-.pro-input {
-    border-radius: 50px;
-    font-size: 15px;
-    height: 20px;
-}
-
-.pro-input:focus, .pro-select:focus, .pro-text:focus {
+.pro-input:focus, .file-select:focus, .pro-text:focus {
     box-shadow: 0 7.5px 15px #2223!important;
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap';
+import Select from "react-select";
 
 const CareerPage = () => {
 
@@ -12,6 +13,29 @@ const CareerPage = () => {
     let [experience, setExperience] = useState("");
     let [jobProfile, setJobProfile] = useState("");
     let [skills, setSkills] = useState("");
+
+    let qualOptions = [
+        { value: 'B.C.A.', label: 'B.C.A.' },
+        { value: 'B.SC.', label: 'B.SC.' },
+        { value: 'B.Tech', label: 'B.Tech' },
+        { value: 'M.C.A.', label: 'M.C.A.' },
+        { value: 'M.SC.', label: 'M.SC.' },
+        { value: 'M.Tech', label: 'M.Tech' },
+    ];
+
+    let expOptions = [
+        {value: 'Fresher', label: 'Fresher'},
+        {value: 'Less than 1 Year', label: 'Less than 1 Year'},
+        {value: '1 - 3 Years', label: '1 - 3 Years'},
+        {value: '3 - 5 Years', label: '3 - 5 Years'},
+        {value: 'More than 5 Years', label: 'More than 5 Years'},
+    ]
+
+    let jobOptions = [
+        {value: 'Android Developer', label: 'Android Developer'},
+        {value: 'MERN Developer', label: 'MERN Developer'},
+        {value: 'SQL Developer', label: 'SQL Developer'},
+    ]
 
     let handleGenChange = (gender) => {
         setSelectGender(gender);
@@ -65,18 +89,15 @@ const CareerPage = () => {
                     <Col lg={6}>
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Qualification </Form.Label> <span className="imp-text-label">*</span>
-                            <Form.Select className='pro-select' size="lg" name="qualification" value={qualification} onChange={(e) => { setQualification(e.target.value) }}>
-                                <option>Select Your Qualification</option>
-                                {["B.C.A.", "B.SC.", "B.Tech", "M.C.A.", "M.SC.", "M.Tech"].map((option, i) => (
-                                    <option key={i} value={option}>{option}</option>
-                                ))}
-                            </Form.Select>
+                            <Select placeholder="Select Your Qualification" className='latest-select' 
+                                defaultValue={qualification} onChange={setQualification} options={qualOptions}
+                            />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Upload Resume </Form.Label> <span className="imp-text-label">*</span>
-                            <Form.Control className='pro-select' type="file" accept=".docx, .pdf" name="resume" value={resume} onChange={(e) => { setResume(e.target.value) }} />
+                            <Form.Control className='file-select' type="file" accept=".docx, .pdf" name="resume" value={resume} onChange={(e) => { setResume(e.target.value) }} />
                         </Form.Group>
                     </Col>
                 </Row>
@@ -85,23 +106,17 @@ const CareerPage = () => {
                     <Col lg={6}>
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Experience </Form.Label> <span className="imp-text-label">*</span>
-                            <Form.Select className='pro-select' size="lg" name="experience" value={experience} onChange={(e) => setExperience(e.target.value)}>
-                                <option>Select Your Experience</option>
-                                {["Fresher", "Less than 1 Year", "1 - 3 Years", "3 - 5 Years", "More than 5 Years"].map((option, i) => (
-                                    <option key={i} value={option}>{option}</option>
-                                ))}
-                            </Form.Select>
+                            <Select placeholder="Select Your Experience" className='latest-select' 
+                                defaultValue={experience} onChange={setExperience} options={expOptions}
+                            />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Job Profile </Form.Label> <span className="imp-text-label">*</span>
-                            <Form.Select className='pro-select' size="lg" name="jobProfile" value={jobProfile} onChange={(e) => { setJobProfile(e.target.value) }}>
-                                <option>Select Your Job Profile</option>
-                                {['Android Developer', 'MERN Developer', 'SQL Developer',].map((profile, i) => (
-                                    <option key={i} value={profile}>{profile}</option>
-                                ))}
-                            </Form.Select>
+                            <Select placeholder="Select Your Job Profile" className='latest-select' 
+                                defaultValue={jobProfile} onChange={setJobProfile} options={jobOptions}
+                            />
                         </Form.Group>
                     </Col>
                 </Row>
