@@ -11,12 +11,15 @@ import Mern from './components/features/Mern';
 import Contact from './components/pages/Contact';
 import Privacy from './components/pages/Privacy';
 import Terms from './components/pages/Terms';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
   return (
     <React.Fragment>
       <Header />
+      <ToastContainer position="top-center" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/career" element={<Career />} />
