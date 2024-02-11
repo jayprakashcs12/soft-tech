@@ -94,8 +94,8 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Mobile No. </Form.Label> <span className="imp-text-label">*</span>
                             <Form.Control className="pro-input" type="tel" placeholder="Enter Your Mobile No."
-                                name="mobileNo" value={mobileNo} onChange={careersData}
-                                onKeyPress={(e) => { if (!/[0-9]/.test(e.key)) { e.preventDefault(); } }} maxLength={10} />
+                                onKeyPress={(e) => {if(!/[0-9]/.test(e.key)){e.preventDefault();}}} maxLength={10}
+                                name="mobileNo" value={mobileNo} onChange={careersData} />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
