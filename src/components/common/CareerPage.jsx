@@ -76,6 +76,7 @@ const CareerPage = () => {
     let handleSubmit = (e) => {
         e.preventDefault();
         if(!fname || !email || !mobileNo || !qualification || !resume || !experience || !jobProfile || !skillSet) {
+        // if(!fname){
             toast.warning("Please fill the Required Field...!", { className: "pro-toast" });
         } else {
             toast.success("Form Submitted Successfully...!", { className: "pro-toast" });
@@ -83,6 +84,10 @@ const CareerPage = () => {
                 fname: "", email: "", mobileNo: "", qualification: "", resume: "", experience: "", jobProfile: "", skillSet: ""
             });
             setSelectGender("");
+            setQualification("");
+            setExperience("");
+            setJobProfile("");
+            setResume("");
         }
     }
 
@@ -135,7 +140,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Qualification </Form.Label> <span className="imp-text-label">*</span>
                             <Select placeholder="Select Your Qualification" className='latest-select' 
-                                name="qualification" defaultValue={qualification} options={qualOptions} onChange={qualifyData}
+                                name="qualification" value={qualification} options={qualOptions} onChange={qualifyData}
                             />
                         </Form.Group>
                     </Col>
@@ -161,7 +166,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Job Profile </Form.Label> <span className="imp-text-label">*</span>
                             <Select placeholder="Select Your Job Profile" className='latest-select' 
-                                name="jobProfile" defaultValue={jobProfile} options={jobOptions} onChange={jobData}
+                                name="jobProfile" value={jobProfile} options={jobOptions} onChange={jobData}
                             />
                         </Form.Group>
                     </Col>
