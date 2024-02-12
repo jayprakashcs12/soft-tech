@@ -29,10 +29,10 @@ const CareerPage = () => {
     ]
 
     let [careerData, setCareerData] = useState({
-        fname: "", email: "", mobileNo: "", qualification: "", resume: "", experience: "", jobProfile: "", skillSet: ""
+        fname: "", email: "", mobileNo: "", qualification: "", experience: "", jobProfile: "", skillSet: ""
     });
 
-    let { fname, email, mobileNo, qualification, resume, experience, jobProfile, skillSet } = careerData;
+    let { fname, email, mobileNo, skillSet } = careerData;
 
     let genderOptions = [
         { id: 'male-radio', label: 'Male', value: 'Male' },
@@ -41,20 +41,37 @@ const CareerPage = () => {
     ];
 
     let [selectGender, setSelectGender] = useState("");
+    let [qualification, setQualification] = useState(null);
+    let [experience, setExperience] = useState(null);
+
+    let [jobProfile, setJobProfile] = useState(null);
+    let [resume, setResume] = useState("");
 
     let handleGenChange = (gender) => {
         setSelectGender(gender);
     };
 
+    let qualifyData = (selectedOption) => {
+        setQualification(selectedOption);
+    };
+
+    let experienceData = (selectedOption) => {
+        setExperience(selectedOption);
+    };
+
+    let jobData = (selectedOption) => {
+        setJobProfile(selectedOption);
+    };
+
+    let handleFileChange = (e) => {
+        let selectedFile = e.target.files[0];;
+        setResume(selectedFile);
+    }
+
     let careersData = (e) => {
         let { name, value } = e.target;
         setCareerData({ ...careerData, [name]: value });
     }
-
-    let handleFileChange = (e) => {
-        let file = e.target.files[0];
-        setCareerData({ ...careerData, resume: file });
-    };
 
     let handleSubmit = (e) => {
         e.preventDefault();
@@ -118,7 +135,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Qualification </Form.Label> <span className="imp-text-label">*</span>
                             <Select placeholder="Select Your Qualification" className='latest-select' 
-                                defaultValue={qualification} onChange={careersData} options={qualOptions}
+                                name="qualification" defaultValue={qualification} options={qualOptions} onChange={qualifyData}
                             />
                         </Form.Group>
                     </Col>
@@ -126,7 +143,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Upload Resume </Form.Label> <span className="imp-text-label">*</span>
                             <Form.Control className='file-select' type="file" accept=".docx, .pdf" 
-                                name="resume" value={resume} onChange={handleFileChange} />
+                                name="resume" onChange={handleFileChange} />
                         </Form.Group>
                     </Col>
                 </Row>
@@ -136,7 +153,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Experience </Form.Label> <span className="imp-text-label">*</span>
                             <Select placeholder="Select Your Experience" className='latest-select' 
-                                defaultValue={experience} options={expOptions} onChange={careersData}
+                                name="experience" value={experience} options={expOptions} onChange={experienceData}
                             />
                         </Form.Group>
                     </Col>
@@ -144,7 +161,7 @@ const CareerPage = () => {
                         <Form.Group className="pro-form" controlId="exampleForm.ControlInput1">
                             <Form.Label className="pro-label"> Job Profile </Form.Label> <span className="imp-text-label">*</span>
                             <Select placeholder="Select Your Job Profile" className='latest-select' 
-                                defaultValue={jobProfile} options={jobOptions} onChange={careersData}
+                                name="jobProfile" defaultValue={jobProfile} options={jobOptions} onChange={jobData}
                             />
                         </Form.Group>
                     </Col>
