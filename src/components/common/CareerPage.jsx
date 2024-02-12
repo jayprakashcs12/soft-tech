@@ -75,7 +75,7 @@ const CareerPage = () => {
 
     let handleSubmit = (e) => {
         e.preventDefault();
-        if(!fname || !email || !mobileNo || !selectGender || !qualification || !resume || !experience || !jobProfile || !skillSet) {
+        if(!fname || !email || !mobileNo || !qualification || !resume || !experience || !jobProfile || !skillSet) {
             toast.warning("Please fill the Required Field...!", { className: "pro-toast" });
         } else {
             toast.success("Form Submitted Successfully...!", { className: "pro-toast" });
