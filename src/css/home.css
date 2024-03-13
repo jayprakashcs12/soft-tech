@@ -159,10 +159,8 @@
 }
 
 .about-img, .feature-img, .team-img, .why-img {
-    transition: 0.3s;
-    filter: gray; /* IE5+ */
-    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-    -webkit-transition: all .5s ease-in-out;
+    transition: all 1s linear 0.5s !important;
+    filter: grayscale(100%);
 }
 
 .about-img:hover, .feature-img:hover, .team-img:hover, .why-img:hover {
